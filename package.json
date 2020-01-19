@@ -1,0 +1,17 @@
+{
+  "name": "hapi-nes-next-route",
+  "version": "1.0.0",
+  "description": "Hapi and Nes setup",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080"
+  },
+  "dependencies": {
+    "@hapi/hapi": "18.3.1",
+    "@hapi/nes": "11.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
