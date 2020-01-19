@@ -1,8 +1,10 @@
 const Hapi = require("@hapi/hapi");
 const Nes = require("@hapi/nes");
+const PORT = process.env.PORT || 5000
+
 const init = async () => {
   const server = Hapi.server({
-    port: 80
+    port: PORT
   });
   await server.register(Nes);
   server.subscription("/slides/{id}");

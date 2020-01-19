@@ -4,7 +4,7 @@
   "description": "Hapi and Nes setup",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js localhost 80"
+    "start": "nodemon src/index.js"
   },
   "dependencies": {
     "@hapi/hapi": "18.3.1",
